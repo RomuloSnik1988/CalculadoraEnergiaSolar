@@ -5,7 +5,7 @@ namespace Calc.Entities;
 internal class CalculadoraSolar
 {
     public double Consumo;
-    
+
     public double PercaSistema = 0.84;
     public double IrradiacaoTo = 4.9;
     public double PotenciaModulo = 575;
@@ -24,6 +24,6 @@ internal class CalculadoraSolar
 
     public override string ToString()
     {
-        return $"A potencia do sistema é : " + CalculaPotencia().ToString("F2",CultureInfo.InvariantCulture) +$" kWp - Total de " + CalcularQuantidadeModulos() + $" Modulo(s) de " + PotenciaModulo +" Wp";
+        return $"A potencia do sistema é {CalculaPotencia().ToString("F2", CultureInfo.InvariantCulture)} kWp \n\nTotal de {CalcularQuantidadeModulos()} Modulo(s) de {PotenciaModulo}Wp" ;
     }
 }

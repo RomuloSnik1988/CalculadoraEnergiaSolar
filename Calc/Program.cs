@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-using Calc.Entities;
+﻿using Calc.Entities;
 using System.Globalization;
 
 CalculadoraSolar calc = new CalculadoraSolar();
