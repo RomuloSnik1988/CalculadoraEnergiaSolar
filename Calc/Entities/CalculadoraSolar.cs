@@ -5,8 +5,7 @@ namespace Calc.Entities;
 internal class CalculadoraSolar
 {
     public double Consumo;
-    public double Potencia;
-
+    
     public double PercaSistema = 0.84;
     public double IrradiacaoTo = 4.9;
     public double PotenciaModulo = 575;
